@@ -13,7 +13,7 @@ Aplikasi web sederhana untuk mengelola jadwal kuliah.
 
 ## Screenshot
 
-![Screenshot Aplikasi](screenshot.png)
+![Screenshot Aplikasi](img/screenshot.png)
 
 ## Implementasi Fitur ES6+
 
@@ -42,5 +42,6 @@ Aplikasi web sederhana untuk mengelola jadwal kuliah.
 8. **String Methods**
    - Penggunaan `padStart` untuk format waktu
    - Method `trim()` untuk pembersihan input
+
 
 
