@@ -1,0 +1,149 @@
+* {
+  box-sizing: border-box;
+  font-family: system-ui, sans-serif;
+}
+
+body {
+  background-color: #0f172a;       /* dark navy */
+  color: #f8fafc;                  /* almost white */
+  display: flex;
+  justify-content: center;
+  padding: 2rem;
+}
+
+.app-container {
+  width: 100%;
+  max-width: 500px;
+  background-color: #1e293b;       /* card bg */
+  border-radius: 12px;
+  padding: 1.5rem 1.5rem 3rem;
+  box-shadow: 0 20px 40px rgba(0,0,0,0.6);
+}
+
+header {
+  margin-bottom: 1.5rem;
+}
+
+header h1 {
+  margin: 0 0 0.25rem;
+  font-size: 1.4rem;
+  font-weight: 600;
+  color: #fff;
+}
+
+header p {
+  margin: 0;
+  font-size: 0.9rem;
+  color: #94a3b8;
+}
+
+h2 {
+  font-size: 1rem;
+  font-weight: 600;
+  margin: 1.5rem 0 0.75rem;
+  color: #fff;
+}
+
+.form-section, .list-section {
+  background-color: #334155;
+  border-radius: 10px;
+  padding: 1rem;
+}
+
+.field {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 0.75rem;
+}
+
+label {
+  font-size: 0.8rem;
+  margin-bottom: 0.25rem;
+  color: #cbd5e1;
+}
+
+input[type="text"],
+input[type="time"],
+select {
+  background-color: #1e293b;
+  color: #f8fafc;
+  border: 1px solid #475569;
+  border-radius: 6px;
+  padding: 0.5rem 0.6rem;
+  font-size: 0.9rem;
+}
+
+input:focus,
+select:focus {
+  outline: 2px solid #38bdf8;
+  border-color: #38bdf8;
+}
+
+.btn-primary {
+  width: 100%;
+  background-color: #38bdf8;
+  border: none;
+  border-radius: 8px;
+  padding: 0.6rem 1rem;
+  font-size: 0.95rem;
+  font-weight: 600;
+  color: #0f172a;
+  cursor: pointer;
+}
+
+.btn-primary:hover {
+  background-color: #7dd3fc;
+}
+
+.jadwal-item {
+  background-color: #1e293b;
+  border: 1px solid #475569;
+  border-radius: 8px;
+  padding: 0.75rem 0.8rem;
+  margin-bottom: 0.6rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.jadwal-info {
+  font-size: 0.9rem;
+  line-height: 1.4rem;
+}
+
+.jadwal-info .matkul {
+  color: #fff;
+  font-weight: 600;
+  font-size: 0.95rem;
+}
+
+.jadwal-info .detail {
+  color: #94a3b8;
+  font-size: 0.8rem;
+}
+
+.actions {
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+}
+
+.btn-kecil {
+  font-size: 0.7rem;
+  border: none;
+  border-radius: 6px;
+  padding: 0.4rem 0.5rem;
+  font-weight: 600;
+  cursor: pointer;
+  min-width: 60px;
+}
+
+.btn-edit {
+  background-color: #fde047;
+  color: #0f172a;
+}
+
+.btn-hapus {
+  background-color: #f87171;
+  color: #0f172a;
+}

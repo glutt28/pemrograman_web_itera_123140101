@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Personal Dashboard - Jadwal Kuliah</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="app-container">
+    <header>
+      <h1>Jadwal Kuliah</h1>
+      <p id="waktu-sekarang">Memuat waktu...</p>
+    </header>
+
+    <section class="form-section">
+      <h2>Tambah / Edit Jadwal</h2>
+      <form id="jadwal-form">
+        <input type="hidden" id="edit-index" />
+
+        <div class="field">
+          <label for="matkul">Mata Kuliah</label>
+          <input type="text" id="matkul" placeholder="Contoh: Jaringan Komputer" required />
+        </div>
+
+        <div class="field">
+          <label for="hari">Hari</label>
+          <select id="hari" required>
+            <option value="">-- Pilih Hari --</option>
+            <option>Senin</option>
+            <option>Selasa</option>
+            <option>Rabu</option>
+            <option>Kamis</option>
+            <option>Jumat</option>
+          </select>
+        </div>
+
+        <div class="field">
+          <label for="jam">Jam</label>
+          <input type="time" id="jam" required />
+        </div>
+
+        <button type="submit" class="btn-primary" id="submit-btn">Simpan Jadwal</button>
+      </form>
+    </section>
+
+    <section class="list-section">
+      <h2>Daftar Jadwal Kuliah</h2>
+      <div id="jadwal-list">
+        <!-- jadwal akan dirender lewat JS -->
+      </div>
+    </section>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
