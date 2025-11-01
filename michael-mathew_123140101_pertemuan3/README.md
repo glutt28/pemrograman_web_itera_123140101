@@ -6,18 +6,18 @@ Web ini merupakan hasil pengerjaan soal UTS lama (sebelum ada update dari Pak Ha
 ### 1. Home Page
 
 - Menampilkan daftar produk dari Fake Store API
-![daftarproduk](/img/tampilandaftarproduk.png)
+![daftarproduk](/michael-mathew_123140101_pertemuan3/img/tampilandaftarproduk.png)
 
 - Search produk real-time dengan debounce
-![cariproduk](/img/fungsipencarian.png)
+![cariproduk](/michael-mathew_123140101_pertemuan3/img/fungsipencarian.png)
 
 - Filter berdasarkan kategori
-![filtering](/img/filtering.png)
+![filtering](/michael-mathew_123140101_pertemuan3/img/filtering.png)
 
 - Grid layout responsif (3 kolom)
 
 ### 2. Product Detail
-![infoproduk](/img/detailproduk.png)
+![infoproduk](/michael-mathew_123140101_pertemuan3/img/detailproduk.png)
 - Informasi lengkap produk
 - Rating dan review count
 - Quantity selector
@@ -26,13 +26,13 @@ Web ini merupakan hasil pengerjaan soal UTS lama (sebelum ada update dari Pak Ha
 
 ### 3. Shopping Cart
 - Daftar produk di keranjang
-![daftarkeranjang](/img/daftardikeranjang.png)
+![daftarkeranjang](/michael-mathew_123140101_pertemuan3/img/daftardikeranjang.png)
 - Update quantity
-![tambahbarang](/img/updatequantity.png)
+![tambahbarang](/michael-mathew_123140101_pertemuan3/img/updatequantity.png)
 - Hapus item
 - Total harga otomatis
 - Checkout simulation
-![checkout](/img/simulasico.png)
+![checkout](/michael-mathew_123140101_pertemuan3/img/simulasico.png)
 
 ### 4. Navigation
 - Sticky navbar
