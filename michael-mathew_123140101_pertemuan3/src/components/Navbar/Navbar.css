@@ -1,0 +1,97 @@
+.navbar {
+  background-color: #1f1f1f;
+  color: whitesmoke;
+  padding: 20px 0;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.navbar nav .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar-logo {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-weight: bold;
+  font-size: 22px;
+  color: whitesmoke;
+  text-decoration: none;
+  transition: transform 0.2s;
+}
+
+.navbar-logo:hover {
+  transform: scale(1.05);
+}
+
+.logo-icon {
+  font-size: 28px;
+}
+
+.navbar ul {
+  display: flex;
+  gap: 20px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+}
+
+.navbar ul li {
+  cursor: pointer;
+}
+
+.navbar ul li a {
+  color: whitesmoke;
+  text-decoration: none;
+  transition: color 0.3s;
+  padding: 8px 12px;
+  border-radius: 5px;
+}
+
+.navbar ul li a:hover {
+  color: #ffd700;
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.navbar ul li.cart a {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  background-color: white;
+  color: black;
+  padding: 8px 16px;
+  border-radius: 8px;
+  font-weight: 600;
+  position: relative;
+}
+
+.navbar ul li.cart a:hover {
+  background-color: #f0f0f0;
+  color: black;
+}
+
+.cart-icon {
+  font-size: 20px;
+}
+
+.cart-badge {
+  position: absolute;
+  top: -8px;
+  right: -8px;
+  background-color: #ff4444;
+  color: white;
+  border-radius: 50%;
+  width: 24px;
+  height: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 12px;
+  font-weight: bold;
+}
