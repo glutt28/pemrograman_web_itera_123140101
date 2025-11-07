@@ -59,19 +59,19 @@ Semua penjelasan di bawah merujuk pada fungsi yang ada di `nilai_mahasiswa.py`.
    - Opsi menu: lihat file atau lihat di awal kode.
 
 ## Dokumentasi i/o dari hasil eksekusi program
-- Tampilan menu utama ketika program dijalankan.
+- Tampilan menu utama ketika program dijalankan.<br>
 ![menu](img/menu.png)
-- Tampilan output ketika memilih menu "Tampilkan semua data" (tabel lengkap semua mahasiswa).
+- Tampilan output ketika memilih menu "Tampilkan semua data" (tabel lengkap semua mahasiswa).<br>
 ![tampilkan_semua](img/tampilkan_semua.png)
-- Tampilan proses input mahasiswa baru dan hasil dari input pada table.
-![input_mahasiswa.](img/input_mahasiswa.png)
+- Tampilan proses input mahasiswa baru dan hasil dari input pada table.<br>
+![input_mahasiswa.](img/input_mahasiswa.png)<br>
 ![hasil_input](img/hasil_input.png)
-- Tampilan dua tabel: mahasiswa nilai tertinggi dan mahasiswa nilai terendah.
+- Tampilan dua tabel: mahasiswa nilai tertinggi dan mahasiswa nilai terendah.<br>
 ![tertinggi_terendah](img/tertinggi_terendah.png)
-- Contoh output filter untuk grade C (tabel hasil filter untuk grade C).
+- Contoh output filter untuk grade C (tabel hasil filter untuk grade C).<br>
 ![filter_grade_C](img/filter_grade_A.png)
-- Tampilan output ketika menghitung rata-rata nilai kelas (baris yang mencetak "Rata-rata nilai akhir kelas: ...").
+- Tampilan output ketika menghitung rata-rata nilai kelas (baris yang mencetak "Rata-rata nilai akhir kelas: ...").<br>
 ![rata_rata](img/rata_rata.png)
-- Potongan kode program menunjukkan perhitungan nilai UTS/UAS/Tugas dan nilai akhir yang dihitung untuk satu mahasiswa.
+- Potongan kode program menunjukkan perhitungan nilai UTS/UAS/Tugas dan nilai akhir yang dihitung untuk satu mahasiswa.<br>
 ![perhitungan_nilai](img/perhitungan_nilai.png)
 
