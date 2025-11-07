@@ -69,7 +69,7 @@ Semua penjelasan di bawah merujuk pada fungsi yang ada di `nilai_mahasiswa.py`.
 - Tampilan dua tabel: mahasiswa nilai tertinggi dan mahasiswa nilai terendah.<br>
 ![tertinggi_terendah](img/tertinggi_terendah.png)
 - Contoh output filter untuk grade C (tabel hasil filter untuk grade C).<br>
-![filter_grade_C](img/filter_grade_A.png)
+![filter_grade_C](img/filter_grade_C.png)
 - Tampilan output ketika menghitung rata-rata nilai kelas (baris yang mencetak "Rata-rata nilai akhir kelas: ...").<br>
 ![rata_rata](img/rata_rata.png)
 - Potongan kode program menunjukkan perhitungan nilai UTS/UAS/Tugas dan nilai akhir yang dihitung untuk satu mahasiswa.<br>
