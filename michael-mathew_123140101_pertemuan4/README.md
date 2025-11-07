@@ -60,18 +60,18 @@ Semua penjelasan di bawah merujuk pada fungsi yang ada di `nilai_mahasiswa.py`.
 
 ## Dokumentasi i/o dari hasil eksekusi program
 - Tampilan menu utama ketika program dijalankan.
-![menu](michael-mathew_123140101_pertemuan4/img/menu.png)
+![menu](img/menu.png)
 - Tampilan output ketika memilih menu "Tampilkan semua data" (tabel lengkap semua mahasiswa).
-![tampilkan_semua](michael-mathew_123140101_pertemuan4/img/tampilkan_semua.png)
+![tampilkan_semua](img/tampilkan_semua.png)
 - Tampilan proses input mahasiswa baru dan hasil dari input pada table.
-![input_mahasiswa.](michael-mathew_123140101_pertemuan4/img/input_mahasiswa.png)
-![hasil_input](michael-mathew_123140101_pertemuan4/img/hasil_input.png)
+![input_mahasiswa.](img/input_mahasiswa.png)
+![hasil_input](img/hasil_input.png)
 - Tampilan dua tabel: mahasiswa nilai tertinggi dan mahasiswa nilai terendah.
-![tertinggi_terendah](michael-mathew_123140101_pertemuan4/img/tertinggi_terendah.png)
+![tertinggi_terendah](img/tertinggi_terendah.png)
 - Contoh output filter untuk grade C (tabel hasil filter untuk grade C).
-![filter_grade_C](michael-mathew_123140101_pertemuan4/img/filter_grade_A.png)
+![filter_grade_C](img/filter_grade_A.png)
 - Tampilan output ketika menghitung rata-rata nilai kelas (baris yang mencetak "Rata-rata nilai akhir kelas: ...").
-![rata_rata](michael-mathew_123140101_pertemuan4/img/rata_rata.png)
+![rata_rata](img/rata_rata.png)
 - Potongan kode program menunjukkan perhitungan nilai UTS/UAS/Tugas dan nilai akhir yang dihitung untuk satu mahasiswa.
-![perhitungan_nilai](michael-mathew_123140101_pertemuan4/img/perhitungan_nilai.png)
+![perhitungan_nilai](img/perhitungan_nilai.png)
 
