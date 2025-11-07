@@ -58,26 +58,20 @@ Semua penjelasan di bawah merujuk pada fungsi yang ada di `nilai_mahasiswa.py`.
    - Deskripsi: Loop utama yang menampilkan menu interaktif dan memanggil fungsi-fungsi di atas sesuai pilihan user.
    - Opsi menu: lihat file atau lihat di awal kode.
 
-## Kontrak singkat (inputs/outputs)
-
-- Input utama program: interaksi via console (stdin).
-- Output utama: teks tabel dan pesan ke console (stdout).
-- Bentuk data mahasiswa: `dict` dengan kunci `nama`, `nim`, `nilai_uts`, `nilai_uas`, `nilai_tugas`.
-
-## Edge cases penting
-
-- Data kosong: `cari_tertinggi_terendah` akan melempar `ValueError`; `rata_rata_kelas` mengembalikan `0.0`.
-- Input non-angka di prompt nilai: `_input_float` akan meminta ulang.
-- Nilai di luar 0-100: `_input_float` menolak dan meminta ulang.
-- Kunci data hilang atau format salah: fungsi penghitungan bisa melempar exception (KeyError atau ValueError). Pastikan data memiliki struktur benar.
-
 ## Dokumentasi i/o dari hasil eksekusi program
-- [img/menu.png](img/menu.png) — Tampilan menu utama ketika program dijalankan.
-- [img/tampilkan_semua.png](img/tampilkan_semua.png) — Tampilan output ketika memilih menu "Tampilkan semua data" (tabel lengkap semua mahasiswa).
-- [img/input_mahasiswa.png](img/input_mahasiswa.png) — Tampilan proses input mahasiswa baru (prompt input dan pesan konfirmasi "Data berhasil ditambahkan!").
-- [img/tertinggi_terendah.png](img/tertinggi_terendah.png) — Tampilan dua tabel: mahasiswa nilai tertinggi dan mahasiswa nilai terendah.
-- [img/filter_grade_A.png](img/filter_grade_A.png) — Contoh output filter untuk grade A (tabel hasil filter untuk grade A).
-- [img/rata_rata.png](img/rata_rata.png) — Tampilan output ketika menghitung rata-rata nilai kelas (baris yang mencetak "Rata-rata nilai akhir kelas: ...").
-- [img/perhitungan_nilai.png](img/perhitungan_nilai.png) — (Opsional) Potongan output atau catatan debug yang menunjukkan nilai UTS/UAS/Tugas dan nilai akhir yang dihitung untuk satu mahasiswa.
-- [img/keluar.png](img/keluar.png) — (Opsional) Tampilan saat memilih menu keluar yang menampilkan pesan "Terima kasih. Program selesai.".
+- Tampilan menu utama ketika program dijalankan.
+![menu](michael-mathew_123140101_pertemuan4/img/menu.png)
+- Tampilan output ketika memilih menu "Tampilkan semua data" (tabel lengkap semua mahasiswa).
+![tampilkan_semua](michael-mathew_123140101_pertemuan4/img/tampilkan_semua.png)
+- Tampilan proses input mahasiswa baru dan hasil dari input pada table.
+![input_mahasiswa.](michael-mathew_123140101_pertemuan4/img/input_mahasiswa.png)
+![hasil_input](michael-mathew_123140101_pertemuan4/img/hasil_input.png)
+- Tampilan dua tabel: mahasiswa nilai tertinggi dan mahasiswa nilai terendah.
+![tertinggi_terendah](michael-mathew_123140101_pertemuan4/img/tertinggi_terendah.png)
+- Contoh output filter untuk grade C (tabel hasil filter untuk grade C).
+![filter_grade_C](michael-mathew_123140101_pertemuan4/img/filter_grade_A.png)
+- Tampilan output ketika menghitung rata-rata nilai kelas (baris yang mencetak "Rata-rata nilai akhir kelas: ...").
+![rata_rata](michael-mathew_123140101_pertemuan4/img/rata_rata.png)
+- Potongan kode program menunjukkan perhitungan nilai UTS/UAS/Tugas dan nilai akhir yang dihitung untuk satu mahasiswa.
+![perhitungan_nilai](michael-mathew_123140101_pertemuan4/img/perhitungan_nilai.png)
 
