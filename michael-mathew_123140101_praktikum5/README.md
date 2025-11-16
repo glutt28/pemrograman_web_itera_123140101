@@ -110,19 +110,6 @@ book1.available = False
 print(f"Status: {book1.available}")
 ```
 
-## Persyaratan yang Dipenuhi
-
-✅ **Abstract Class**: `LibraryItem` menggunakan `ABC` dan memiliki abstract methods  
-✅ **Inheritance**: `Book` dan `Magazine` mewarisi dari `LibraryItem`  
-✅ **Abstract Method Implementation**: Setiap subclass mengimplementasikan `get_info()` dan `get_type()`  
-✅ **Encapsulation**: Menggunakan protected (`_`) dan private (`__`) attributes  
-✅ **Property Decorator**: Minimal satu property (`available` dengan getter dan setter)  
-✅ **Fitur Sistem**:
-  - ✅ Menambahkan item ke perpustakaan (`add_item()`)
-  - ✅ Menampilkan daftar item (`display_all_items()`)
-  - ✅ Mencari berdasarkan judul (`search_by_title()`)
-  - ✅ Mencari berdasarkan ID (`search_by_id()`)
-
 ## Demonstrasi Konsep OOP
 
 Program ini mendemonstrasikan:
@@ -138,4 +125,5 @@ Program ini mendemonstrasikan:
 - Semua ID item harus unik
 - Pencarian berdasarkan judul bersifat case-insensitive
 - Status ketersediaan dapat diubah menggunakan property setter dengan validasi
+
 
